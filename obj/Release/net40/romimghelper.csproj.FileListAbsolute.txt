@@ -1,0 +1,5 @@
+C:\Users\sircr\romimghelper\obj\Release\net40\romimghelper.csproj.AssemblyReference.cache
+C:\Users\sircr\romimghelper\obj\Release\net40\romimghelper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sircr\romimghelper\obj\Release\net40\romimghelper.AssemblyInfoInputs.cache
+C:\Users\sircr\romimghelper\obj\Release\net40\romimghelper.AssemblyInfo.cs
+C:\Users\sircr\romimghelper\obj\Release\net40\romimghelper.csproj.CoreCompileInputs.cache

@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Additional Metadata -->
+    <Company>xmw-user</Company>
+    <ProductVersion>1.0.0</ProductVersion>
+    <Description>A tool to help manage PNG files and place them in respective ZIP folders.</Description>
+    <Authors>xmw-user</Authors>
+    <Copyright>Copyright (c) 2024 xmw-user. All rights reserved.</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyTitle>Romimghelper</AssemblyTitle>
+    <AssemblyDescription>A tool to manage PNG files and place them in ZIP folders.</AssemblyDescription>
+    <AssemblyCompany>xmw-user</AssemblyCompany>
+    <AssemblyProduct>Romimghelper</AssemblyProduct>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Deterministic>true</Deterministic>
+    <WarningsAsErrors>CS8600;CS8602;CS8603</WarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Include the .ico file as content -->
+    <Content Include="icon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    
+    <!-- Remove PackageReference for Costura.Fody -->
+    <PackageReference Include="DotNetZip" Version="1.16.0" />
+    <!-- Other PackageReferences if any -->
+  </ItemGroup>
+
+</Project>
